@@ -22,7 +22,7 @@ const page = async ({ params }: { params: Promise<{ slug: string }> }) => {
         )
     }
 
-    redirect('https://yellowribbontravels.com/' + slug);
+    redirect('https://yellowribbontravels.com/pay/' + slug);
     return (
         <div>
             <h1>Payment Page for ID: {slug}</h1>
