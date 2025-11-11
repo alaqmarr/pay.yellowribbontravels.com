@@ -170,7 +170,7 @@ const PaymentForm = () => {
                 </div>
 
                 <div className="flex items-center gap-2 bg-default-50 rounded-md px-2 py-1 w-full">
-                  <Code color="success" className="truncate flex-1">
+                  <Code color="success" className="truncate flex-1 wrap-break-word">
                     {paymentUrl}
                   </Code>
                   <Tooltip content={copied ? 'Copied!' : 'Copy'}>
